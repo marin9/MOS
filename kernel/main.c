@@ -277,7 +277,7 @@ void copyFile(char *args){
 void printLogo(){
 	puts("\x1B[0m  \x1B[41m  \x1B[0m  \x1B[41m  \x1B[0m  \x1B[0m  \x1B[44m  \x1B[0m  \x1B[0m  \x1B[0m  \x1B[42m  \x1B[42m  \x1B[0m\n");
 	puts("\x1B[0m  \x1B[41m  \x1B[41m  \x1B[41m  \x1B[0m  \x1B[44m  \x1B[0m  \x1B[44m  \x1B[0m  \x1B[42m  \x1B[0m  \x1B[0m  \x1B[0m\n");
-	puts("\x1B[0m  \x1B[41m  \x1B[41m  \x1B[41m  \x1B[0m  \x1B[44m  \x1B[0m  \x1B[44m  \x1B[0m  \x1B[0m  \x1B[42m  \x1B[0m  \x1B[0m\n");
+	puts("\x1B[0m  \x1B[41m  \x1B[0m  \x1B[41m  \x1B[0m  \x1B[44m  \x1B[0m  \x1B[44m  \x1B[0m  \x1B[0m  \x1B[42m  \x1B[0m  \x1B[0m\n");
 	puts("\x1B[0m  \x1B[41m  \x1B[0m  \x1B[41m  \x1B[0m  \x1B[44m  \x1B[0m  \x1B[44m  \x1B[0m  \x1B[0m  \x1B[0m  \x1B[42m  \x1B[0m\n");
 	puts("\x1B[0m  \x1B[41m  \x1B[0m  \x1B[41m  \x1B[0m  \x1B[0m  \x1B[44m  \x1B[0m  \x1B[0m  \x1B[42m  \x1B[42m  \x1B[0m  \x1B[0m\n");
 	puts("\n");

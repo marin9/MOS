@@ -39,9 +39,16 @@ to flash memory (Ctrl+S) and exit from  editor (ESC).
 ![Text editor screenshot](https://raw.githubusercontent.com/marin9/M_OS/master/screenshot/s2.png)
 
 
-**BASIC interpreter:**
+**BASIC interpreter**
+
 This simple version of BASIC interpreter allow you to create 
-and run your programs. 
+and run your programs. It supports over 20 commands for input/output,
+read/write file, control GPIO pins and others. For view all supported
+commands and grammar, type 'basic grammar'.
+For example: blink LED program
+
+![Blink program screenshot](https://raw.githubusercontent.com/marin9/M_OS/master/screenshot/s3.png)
+
 
 **Circuit:**
 

@@ -12,7 +12,7 @@ M-OS is single task operating system for Raspberry Pi Zero.
 
 MOS don't using graphic or USB keyboard, all communication is 
 over serial (UART). You need to connect pin 14 and 15 to USB 
-over UART module and operate with putty. Also you can powered 
+over UART module and operate with putty. Also you can power 
 RPi with UART module over pin 5V just like on circuit diagram. 
 Command line interface supports few commands: basic (for start 
 BASIC interpreter), edit (for start text editor), ls (for print 
@@ -25,13 +25,13 @@ Type 'help' to view all supported commands.
 
 MOS is using simple file system on external flash memory. 
 Flash memory is splitted into 16 blocks of 8 kB, so every 
-file can be max 8 kB and it can contains up to 16 files 
-with memory capacity 128 kB. File system not supporting 
+file can be max 8 kB and it can contain up to 16 files 
+with memory capacity 128 kB. File system is not supporting 
 directories, only files.
 
 **Text editor**
 
-You can run simple text editor typing 'edit' to create or 
+You can run simple text editor by typing 'edit' to create or 
 modify text file. Editor supports only four commands: move 
 cursor up (Ctrl+U), move cursor down (Ctrl+D), save file 
 to flash memory (Ctrl+S) and exit from  editor (ESC).
@@ -41,9 +41,9 @@ to flash memory (Ctrl+S) and exit from  editor (ESC).
 
 **BASIC interpreter**
 
-This simple version of BASIC interpreter allow you to create 
+This simple version of BASIC interpreter allows you to create 
 and run your programs. It supports over 20 commands for input/output,
-read/write file, control GPIO pins and others. For view all supported
+read/write file, control GPIO pins and others. To view all supported
 commands and grammar, type 'basic grammar'.
 For example: blink LED program
 
